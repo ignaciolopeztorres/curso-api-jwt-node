@@ -9,12 +9,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
+    "jsonwebtoken": "^9.0.2",
     "morgan": "~1.9.1"
   },
   "author": "Ignacio Lopez Torres <ignacio.ujat@yahoo.com.mx> (https://gitlab.com/ignacio.lopeztorres)",
   "license": "ISC",
-  "description": "Ejemplo de una apirest usando json web token (jwt) en node"
+  "description": "Ejemplo de una apirest usando json web token (jwt) en node",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
